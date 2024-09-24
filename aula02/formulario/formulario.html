@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="titulo-pagina">
+        <h1>Cadastro de Desenvolvedores</h1>
+        <p>Preencha os campos com suas informações</p>
+    </div>
+    <form>
+        <fieldset class="campo-informacoes-pessoais">
+            <div class="box-input">
+                <label for="">Nome:</label>
+                <input type="text" placeholder="Digite seu nome"/>
+            </div>
+            <div class="box-input">
+                <label for="">Sobrenome:</label>
+                <input type="text" placeholder="Digite seu sobrenome" />
+            </div>
+            <div class="box-input"></div>
+                <label for="">Email:</label>
+                <input type="text" placeholder="Digite seu e-mail" />
+            </div>
+        </fieldset>
+        <div class="stack">
+            <label class="campo-stack" for="stack">
+                <input type="radio" value="front-end" name="stack" /> Front-End
+                <input type="radio" value="back-end" name="stack" /> Back-End
+                <input type="radio" value="fullstack" name="stack" /> FullStack    
+            </label>
+        </div>
+        <div class="campo-senioridade">
+            <label>Senioridade</label>
+            <select name="senioridade" id="senioridade">
+                <option selected disabled value="">Selecione uma categoria</option>
+                <option value="junior">Junior</option>
+                <option value="pleno">Pleno</option>
+                <option value="senior">Senior</option>
+            </select>
+        </div>
+        <div class="checkbox">
+            <label>Selecione as tecnologias com que você trabalha:</label>
+            <label for="tecnologia1">
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia1"
+                    value="html"
+                />
+                HTML
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia2"
+                    value="css"
+                />
+                CSS
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia3"
+                    value="nodejs"
+                />
+                Node.js
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia4"
+                    value="javascript"
+                />
+                JavaScript
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia5"
+                    value="react"
+                />
+                React
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia6"
+                    value="java"
+                />
+                Java
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia7"
+                    value="python"
+                />
+                Python
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia8"
+                    value="csharp"
+                />
+                C#
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia9"
+                    value="SQL"
+                />
+                SQL
+                <input
+                    type="checkbox"
+                    id="tecnologia"
+                    name="tecnologia10"
+                    value="Django"
+                />
+                Django
+            </label>       
+        </div>
+        <div class="container-botao">
+            <button>Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

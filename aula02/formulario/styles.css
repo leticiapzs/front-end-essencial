@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: bisque;
+    color:darkgray;
+}
+
+form {
+    background-color: beige;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo-pagina p {
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo-pagina h1 {
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo-informacoes-pessoais {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.campo-stack {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 12px;
+}
+
+.campo-senioridade {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    margin-bottom: 12px;
+}
+
+.checkbox {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container-botao button {
+    width: 6rem;
+    height: 2rem;
+    background-color: floralwhite;
+    border: none;
+    font-size: small;
+    color:black;
+    border-radius: 20px;
+    transition-duration: 2s;
+    transition: all;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
