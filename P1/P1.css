@@ -199,7 +199,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #2F2E2E;
+    background-color: #EEE751;
 }
 
 #newsletter h2 {
@@ -267,12 +267,12 @@ button:hover {
 }
 
 .rodape {
-    background-color:#EEE751;
+    background-color: #2F2E2E;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #0D0D0D;
+    color: #EEE751;
     font-family: "Poppins";
 }
 
