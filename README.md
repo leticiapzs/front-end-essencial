@@ -7,6 +7,8 @@ Projetos feitos na matéria de front-end essencial do programa de residência se
 
 • CSS
 
+• JavaScript
+
 • [Visual Studio Code](https://code.visualstudio.com/)
 
 # Autor(a) ✒️
